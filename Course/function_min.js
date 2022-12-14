@@ -40,4 +40,9 @@
 //     let str2 = 'o, l, z';
 //     return str2[i];
 // }
-
+//==== функция перевода фаренгейта в цельсии ====
+// function fahrenheitToCelcium(f){
+//     let c = ((f - 32) * (5/9)).toFixed(2) ;
+//     return c;
+// }
+// console.log(fahrenheitToCelcium(350))
