@@ -19,15 +19,12 @@ function count (dataArr) {
     for (let i = 0; i < dataArr.length; i++){
         if (dataArr[i] === '') {
             if (sum > maxSum) {
-                let temp1 =maxSum;
-                let temp2 = maxSum2;
+                maxSum3 = maxSum2;
+                maxSum2 = maxSum;
                 maxSum = sum;
-                maxSum2 = temp1;
-                maxSum3 = temp2;
             } else if (sum > maxSum2) {
-                let temp2 = maxSum2;
+                maxSum3 = maxSum2;
                 maxSum2 = sum;
-                maxSum3 = temp2;
             } else if (sum > maxSum3) {
                 maxSum3 = sum;
             }
