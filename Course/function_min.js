@@ -46,3 +46,21 @@
 //     return c;
 // }
 // console.log(fahrenheitToCelcium(350))
+
+//TASK == function
+// let my_numbers = [5, 3, 4, 10]
+//
+// function findTotal(my_numbers){
+//     let sum = 0;
+//     for(let i = 0; i < my_numbers.length; i++){
+//         if (my_numbers[i] % 2 === 0){
+//             sum += 1
+//         }  else if (my_numbers[i] % 2 !== 0 && my_numbers[i] !== 5){
+//             sum +=3
+//         } else if (my_numbers[i] === 5){
+//             sum += 5
+//         }
+//     }
+//     console.log(sum)
+// }
+// findTotal(my_numbers)
